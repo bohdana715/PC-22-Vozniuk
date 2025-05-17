@@ -1,0 +1,1571 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant:ital,wght@0,300..700;1,300..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Cormorant Infant", serif;
+    color: #FFEBAF;  
+}
+
+h2 {
+    font-size: 44px;
+    padding-bottom: 35px;
+}
+
+h3 {
+    font-size: 27px;
+}
+
+p {
+    color: #F5EFDC;
+    font-size : 22px;
+}
+
+.img {
+    background-color: #592870; 
+    display: flex;
+    justify-content: center;
+    padding: 80px 0;
+}
+
+.img img {
+    max-width: 50%;    
+    height: auto; 
+}
+
+/*HEADER*/
+
+header {
+    background-color: #613875;
+    padding: 15px; 
+    display: flex;
+    justify-content: space-between;
+}
+
+nav{
+   margin-right:80px;
+   margin-top:25px;  
+} 
+
+nav a{
+    border-radius: 12px;
+    border: 1px solid #FFEBAF; 
+    padding: 8px 27px; 
+}
+
+.logo img{
+    width: 100%;
+    max-width: 200px;
+    
+}
+.logo {
+    margin-left: 65px;
+    width: 100%;
+    max-width: 200px;
+    
+}
+
+a {
+    font-size : 18px;
+    margin-left:11px;
+}
+
+/*MAIN*/
+
+body {
+    background-color: #592870;
+}
+
+section{
+    padding: 50px 80px;
+}
+.next{
+    background-image: url('img/back.svg');
+    margin-left: -50px;
+}
+
+
+.back{
+    background-image: url('img/back.svg')
+}
+.block, .backto{
+
+    display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+  padding-top: 50px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.text_block, ul {
+    flex: 1;
+  min-width: 0;
+
+} 
+
+button {
+    background-color: #FFEBAF;
+    color: #592870;
+    border: none;
+    padding: 15px 50px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.back p { 
+    padding: 35px 0;
+   }
+
+.img_block, .img_block_two{
+
+    flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  min-width: 0;
+  max-width: 30%;
+  }
+
+
+.img_block img, .img-block_two img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.backto {
+    background-image: url('img/back2.svg');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;  
+}
+    
+
+
+.text_block_two {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    padding-top: 50px;
+ }
+
+
+
+.backto p{
+    padding-left: 20px
+}
+
+.card_one, .card_two, .card_three {
+    width: 312px;
+    height: 564px;
+    background-color: #7B518E;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center; 
+}
+
+.backthree{
+    background-image: url('img/back.svg');
+}
+
+.card {
+    display: flex;
+    flex-direction: row;    
+    align-items: center;
+    justify-content: center; 
+    gap: 100px;
+}
+
+.card img{
+    max-width: 219px; 
+    height: 340px;
+}
+
+.card p{
+    max-width: 267px;
+    height: 119px;
+    font-size: 18px;
+    display: flex;
+    padding:17px 5px 0 5px;
+    justify-content: center;
+}
+
+.card h3{
+    font-size: 27px;
+    padding: 18px 20px;
+}
+.kolo { 
+    height: 60px !important;
+}
+.right {
+    padding-left: 70px;
+}
+.left {
+    padding-right: 70px;
+}
+.text{
+    color: #EBDCAE;
+    padding-top: 26px;
+}
+
+.backfour h3{
+    padding-bottom: 26px;
+} 
+
+
+.roz_one, .roz_two, .roz_three {
+    border-radius: 41px;
+    margin-bottom: 35px;
+    border: 1px solid #FFEBAF; /* товщина, стиль, колір */
+    
+} 
+
+
+.girl_one img{
+    width: 260px;
+    height: 360px;
+}
+
+.girl_two{
+    padding-top: 40px;
+}
+
+.girl_two img{
+    width: 320px;
+    height: 390px;
+}
+
+.girl_three img{
+    width: 255px;
+    height: 315px;
+}
+
+.roz_one, .roz_two, .roz_three {
+    background-position: center;
+    padding: 50px 0; 
+    display: flex;
+    justify-content: space-around;
+}
+/* .backfive{
+    height: 695px ;
+} */
+.section {
+    /* background-size: cover;
+    background-position: left center;
+    display: flex;
+    justify-content: space-between; */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+/* .text_block_four{
+    padding:36px;
+} */
+
+.course{
+    position: relative;
+    padding: 25px 36px;
+    border-radius: 15px;
+    width: 225px;
+    line-height: 1.2;
+    border: 1px solid #FFEBAF;
+    z-index: 1;
+}
+
+.book{
+    position: relative; 
+}
+
+.book img{
+        position: absolute;
+        top: -140px;
+        left: 209px;
+        max-width: 476px;
+        height: 520px;
+        z-index: -1;  
+}
+
+.format{
+    margin-top: 279px;
+    padding: 22px 30px;
+    border-radius: 15px;
+    width: 105px;
+    border: 1px solid #FFEBAF;
+}
+.time{
+    position: relative;
+    top:-42px;
+    left: 115px;
+    border-radius: 15px;
+    border: 1px solid #FFEBAF; 
+    background-color: #592870;
+    max-width: 180px;
+    width: 100%;
+    padding: 25px 30px;  
+    z-index: 1;
+}
+
+.backfive img{
+    width: 512px;
+    height: 520px;
+}
+
+.backfive button{
+    margin-left: 105px;
+    margin-bottom: 60px;
+}
+
+.text_block_five{
+    width: 100%;
+   max-width: 500px;
+   padding-top: 20px;
+    
+}
+
+.box{
+    border-radius: 15px;
+    border: 1px solid #FFEBAF; 
+    padding: 40px;  
+}
+
+.text_block_five h3{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 16px;
+}
+
+.text_block_five p{
+    /* align-items: left; */
+    justify-content: center;
+}
+
+.p{
+    padding-bottom: 27px;
+}
+
+.pricing-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    background: #ecb30b2e;
+    position: relative;
+    overflow: hidden;
+    padding: 80px 50px;
+    z-index: 0;
+  }
+  
+  .pricing-card {
+    background: #fff;
+    border: 2px solid #d6c2ff;
+    border-radius: 15px;
+    padding: 30px;
+    width: 300px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .pricing-card.featured {
+    border-color: #caa5ff;
+    background-color: #fdf6ff;
+  }
+  
+  .pricing-card h3 {
+    font-size: 27px;
+    color: #592870;
+  }
+  
+  .pricing-card .price {
+    font-size: 31px;
+    color: #9b59b6;
+    margin: 15px 0;
+    font-weight: bold;
+  }
+  
+  .pricing-card ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+    text-align: center;
+  }
+  
+  .pricing-card ul li {
+    margin: 10px 0;
+    color: #333;
+  }
+  
+  .pricing-card button {
+    background-color: #592870;
+    color: #fff;
+    border: none;
+    padding: 12px 25px;
+    font-size: 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .pricing-card button:hover {
+    background-color: #a57de1;
+  }
+
+  
+legend{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    font-size: 35px;
+}
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 25px; /* Some padding */ 
+    border: 1px solid #FFEBAF; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 20px; /* Bottom margin */
+    color: #FFEBAF;
+    background-color: #7b518f;
+    font-size: 19px;
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #FFEBAF;
+    color: #592870;
+    border: 1px solid #FFEBAF;
+    padding: 15px 50px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #592870;
+    color: #FFEBAF;
+    border: 1px solid #FFEBAF;
+  }
+  
+  
+  /* Add a background color and some padding around the form */
+  .container {
+    border-radius: 20px;
+    border: 1px solid #FFEBAF;
+    background-color: #693a80;
+    padding: 20px;
+    font-size: 22px;
+  }
+    .container p {
+        font-size: 28px;
+        margin-bottom: 6px;
+        color: #FFEBAF;
+    }
+
+/* Зміна кольору підказки */
+input::placeholder,
+textarea::placeholder {
+  color: #fff4ca84;
+  opacity: 1;
+}
+
+/* Відступ перед повідомленням */
+.subject {
+  margin-top: 20px;
+}
+
+/* Кастомний колір для radio/checkbox */
+input[type="radio"],
+input[type="checkbox"] {
+  accent-color: #FFEBAF;
+}
+
+.radio label,
+.checkbox label {
+  margin: 5px 25px 5px 0;
+  color: #fff6da;
+}
+
+.radio,
+.checkbox {
+  text-align: center;
+  margin-bottom: 30px;
+}
+#subject {
+    height: 200px;
+  }
+    .video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.5;
+    z-index: -1;
+    pointer-events: none;
+  }
+  
+    .pricing-section {
+    position: relative;
+    overflow: hidden;
+    padding: 80px 50px;
+    z-index: 0;
+  } 
+  
+  .pricing-cards {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .pricing-card {
+    background: #fdf6ff;
+    border-radius: 12px;
+    padding: 20px;
+    width: 280px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    text-align: center;
+  }
+  
+  .featured {
+    background: #fff;
+    border: 2px solid #c9a6ff;
+  }
+   
+
+.back{
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    background-color: #613875;
+    background-position: center;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+footer p {
+    color: #FFEBAF;
+    font-size: 15px;
+    padding: 15px 0;
+}
+
+footer img {
+    padding: 7px 10px 7px 0;
+    width: 35px;
+    height: 35px;
+}
+.hamburger-menu {
+    display: none;
+}
+ .book_m {
+    display: none;
+ }
+  /* === ГЛОБАЛЬНІ СТИЛІ === */
+img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+ 
+ @media(max-width: 1350px) {
+    br{
+        display: none;
+    }
+    .book img{
+        width: 350px;
+        left:185px;
+    }
+    .girl_one img,
+    .girl_two img,
+    .girl_three img {
+      max-width: 100%;
+    }
+    .text_block_three{
+          max-width: 60%;
+    
+    }
+ }
+/* === MEDIA 1200px === */
+@media (max-width: 1200px) {
+     .roz_one, .roz_two, .roz_three {
+      flex-direction: column;
+      align-items: center;
+    }
+    
+  
+    .img_block,
+    .img_block_two,
+    .girl_one,
+    .girl_two,
+    .girl_three {
+        display: flex;
+        justify-content: center;
+        margin: 20px 0;
+    }
+    .text_block_three{
+        max-width: 90%;
+  
+  }
+    .block {
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+      }
+      .img_block, .img_block_two {
+        display: flex;
+        justify-content: flex-end;
+        max-width: 30%;
+      }
+      ul {
+        max-width: 100%;
+      }
+    
+  
+    .card {
+      
+      gap: 40px;
+    }
+  
+    .card_one,
+    .card_two,
+    .card_three {
+      max-width: 90%;
+      height: auto;
+    }
+  
+    .book img {
+        width: 240px;
+        top: -111px;
+        left: 76px;
+    }
+    .box{
+        left:0;
+        padding: 25px;
+    }
+}
+  
+ @media(max-width: 1150px) {
+    .img{
+        padding: 0;
+    }
+    .card_three {
+        display: none;
+      }
+ }
+
+ @media (max-width: 1000px) {
+    nav{
+        display: none;    }
+    .hamburger-menu{        
+        display: block;
+    }    
+    #menu__toggle {
+        opacity: 0;      
+    }
+            
+    #menu__toggle:checked ~ .menu__btn > span {
+        transform: rotate(45deg);      
+    }
+    #menu__toggle:checked ~ .menu__btn > span::before {        
+        top: 0;
+        transform: rotate(0);      
+    }
+      #menu__toggle:checked ~ .menu__btn > span::after {        
+        top: 0;
+        transform: rotate(90deg);      
+    }
+      #menu__toggle:checked ~ .menu__box {        
+        visibility: visible;
+        right: 0;      
+    }
+     .menu__btn {
+        display: flex;        
+        align-items: center;
+        position: absolute;        
+        top: 20px;
+        right: 5%;      
+        width: 34px;        
+        height: 64px;
+        cursor: pointer;
+        z-index: 3;      
+    }
+            
+    .menu__btn > span, .menu__btn > span::before, .menu__btn > span::after {
+        display: block;        
+        position: absolute;
+        width: 100%;
+        height: 3px;       
+        border-radius: 2px;
+        background-color: #FFEBAF;
+        transition-duration: .25s;
+
+      } 
+      /* Add this to make the menu button fixed when menu is open */
+      #menu__toggle:checked ~ .menu__btn {        
+        position: fixed;
+        top: 20px;        
+        right: 5%;
+      }     
+      .menu__btn > span::before {
+        content: '';        
+        top: -8px;
+      }      
+      .menu__btn > span::after {
+        content: '';
+        top: 8px;
+      }      
+      .menu__box {        
+        display: block;
+        position: fixed;       
+        visibility: hidden;
+        top: 0;        
+        right: -90%;
+        width: 300px;     
+        margin: 0;        
+        padding: 50px 0;
+        list-style: none;
+        z-index: 2;
+      
+        background-color: #7B518E;
+        box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);      
+        transition-duration: .25s;
+      }      
+      .menu__item {        
+        display: block;
+        padding: 12px 24px;      
+        color: #FFEBAF;      
+        font-family: "Jura";        
+        font-size: 20px;
+        font-weight: 600;      
+        text-decoration: none;      
+        transition-duration: .25s;      
+    }
+      .menu__item:hover {        
+        background-color: #7B518E;
+      }
+    .rectangle img{        
+        min-width: 120px;
+        max-width: 180px;        
+        height: auto; 
+    }    
+    .stikers img{
+        width: 135px;        
+        height: auto;
+    }    
+    .merch-container h3{
+        font-size: 18px;        
+        padding: 10px 0 15px;
+    }    
+    .rectangle{
+        max-width: 200px;        
+        max-height: 200px;
+        padding: 60px;         
+        background-color: #FFEBAF; 
+        border-radius: 40px; /* Заокруглені кути */        
+        text-align: center; 
+        margin: 0;       
+        margin-bottom: 30px;
+    }
+    .img img {
+        max-width: 500px;    
+        height: auto; 
+    }
+    .img_block img {
+        width: 300px;
+        height: 300px;
+    }
+    .img-block_two img {
+        height: 300px; 
+        width: 300px;
+    }
+    .card img{
+        max-width: 100%; 
+        height: 250px;
+    }
+    .card_one, .card_two {
+        width: 250px;
+        height: 450px;
+    }
+    .card {
+        flex-wrap: unset;
+    }
+    .left{ 
+        height: 50px !important;
+        padding-right: 25%;
+    }
+    .right{
+        height: 50px !important;
+        padding-left: 25%;
+    }
+
+    h1 {
+        font-size: 35px;
+    }
+	h2 {
+        font-size: 35px;
+        padding-bottom: 10px; 
+    }
+    h3 {
+        font-size: 29px;
+    }
+    p {
+        font-size : 19px;
+    }
+    nav {
+      display: none;
+    }
+  
+    .hamburger-menu {
+      display: block;
+    }
+  
+    .logo {
+      max-width: 160px;
+      margin: 10px;
+    }
+  
+    .backthree p{
+        font-size: 15px;
+        max-width: 100%;
+    }
+  
+    .text_block,
+    .text_block_two,
+    .text_block_three,
+    .text_block_four,
+    .text_block_five {
+      padding: 10px;
+    }
+  
+    section {
+      padding: 30px;
+    }
+    .backfive {
+        height: auto;
+        padding: 40px;
+    }
+ 
+    .section {
+        flex-direction: row;
+        align-items: center;
+        margin-left: 45px;
+
+    }
+ 
+    .course {
+        width: 180px;
+        padding: 20px 25px;
+        border-radius: 27px;
+    }
+ 
+    .time {
+        width: 35%;
+        padding: 15px 20px;
+    }
+    .format {
+        margin-top: -460px;
+        width: 27%;
+        padding: 15px 20px;
+    }
+ 
+    .book {
+        display: none;
+    }
+ 
+    .book_m {
+        display: block;
+        width: 70%;
+        height: auto;
+        position: relative;
+        top: -283px;
+        left: 297px;
+        z-index: 0;
+    }
+ 
+    .text_block_five {
+        padding-top: 20px;
+        max-width: 800px;
+    }
+ 
+    .backfive button {
+        /* margin: 30px auto; */
+        display: block;
+        position: relative;
+        top: 0;
+        left: 500px;
+        margin-left: 0;
+        margin-bottom: 0;
+        margin-top: -160px;
+        
+    }
+ 
+    .box {
+        padding: 25px;
+        margin-top: 30px;
+    }
+    .roz_one, .roz_two, .roz_three {
+        flex-direction: column;
+        align-items: center;
+        padding: 30px 0px;
+      }
+      .text_block_three {
+        padding: 10px;
+      }
+      .text_block_three h3 {
+        font-size: 22px;
+      }
+      .text_block_three p {
+        font-size: 16px;
+        line-height: 1.5;
+      }
+      .img_block, .img_block_two, .girl_one img,
+      .girl_two img,
+      .girl_three img {
+        width: 70%;
+        max-width: 220px;
+        height: auto;
+      }
+      .img_block,
+      .img_block_two,
+      .girl_one,
+      .girl_two,
+      .girl_three {
+          display: flex;
+          justify-content: center;
+          margin: 0px 0;
+          padding-top: 0;
+      }
+    }
+    /* === MEDIA 850px === */
+  @media (max-width: 850px) {
+    .text_block  {
+        max-width: 100%;
+        flex: 1 1 100%;
+      }
+      .block {
+        flex-direction: column;
+        max-width: 100%;
+        flex: 1 1 100%;
+      }
+    .img_block img, .img_block_two img{
+        display: none;
+    }
+    .backfive button {
+left: 377px;
+}
+  }
+  
+  /* === MEDIA 768px === */
+  @media (max-width: 768px) {
+    .card
+    .roz_one,
+    .roz_two,
+    .roz_three,
+    .section,
+    .block {
+      flex-direction: column;
+    }
+    .card {
+      flex-direction: unset;
+    
+    }
+  
+    .img_block,
+    .img_block_two,
+    .girl_one,
+    .girl_two,
+    .girl_three {
+      width: 80%;
+      height: 80%;
+    }
+  
+    .girl_one img, .girl_two img, .girl_three img{
+        width: 73px;
+        height: 88px;
+    }
+    .girl_one, .girl_two, .girl_three{
+        display:flex;
+        align-items: end;
+    }
+    .card_two{
+      width: 100%;
+    }
+    .text_block, .text_block_two, .text_block_three, .text_block_four, .text_block_five {
+        padding: 0px; 
+    }
+  
+    .time, .format {
+      position: static;
+      margin: 10px auto;
+    }
+    .backfive {
+        height: auto;
+        padding: 20px;
+    }
+    .backfive img{
+        height:0;
+    }
+ 
+    .section {
+        flex-direction: column;
+        align-items: center;
+    }
+ 
+    .course {
+        width: 140px;
+        padding: 12px;
+        font-size: 12px;
+    }
+ 
+    
+    .time {
+        width: 80px;
+        padding: 6px 10px;
+        margin-top: 10px;
+    }
+ 
+    .book {
+        display: none;
+    }
+ 
+    .book_m {
+        display: none;
+    }
+
+ 
+    .text_block_five {
+        padding-top: 10px;
+    }
+ 
+    .box {
+        padding: 15px;
+    }
+ 
+    .text_block_five h3 {
+        font-size: 14px;
+        text-align: center;
+    }
+ 
+    .text_block_five p {
+        font-size: 12px;
+    }
+    .card_one {
+        display: none;
+      }
+      .card_two {
+        width: 50%;
+      }
+      .roz_one, .roz_two, .roz_three {
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 20px;
+  }
+  .text_block_three {
+    padding: 10px;
+  }
+  .text_block_three h3 {
+    font-size: 22px;
+  }
+  .text_block_three p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  .girl_one img,
+  .girl_two img,
+  .girl_three img {
+    width: 27%;
+    max-width: 220px;
+    height: auto;
+  }
+  .backfive {
+    padding: 30px 20px;
+    height: auto;
+  }
+
+  .section {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .format, .time {
+    width: 100%;
+    max-width: 160px;
+    padding: 10px;
+    margin-top: 10px;
+    position: static;
+  }
+
+
+  .text_block_five {
+    padding-top: 20px;
+    max-width: 100%;
+  }
+  .box {
+    padding: 20px;
+  }
+  .box h3 {
+    font-size: 16px;
+    text-align: center;
+  }
+  .box p {
+    font-size: 14px;
+    text-align: left;
+  }
+  .backfive {
+    padding: 30px 20px;
+    height: auto;
+  }
+  .section {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  .course {
+    max-width: 260px;
+    padding: 20px;
+    align-items: center;
+  }
+  .course-big{
+    display: flex;
+    align-items: center;
+  }
+  .format, .time {
+    width: 100%;
+    max-width: 283px;
+    padding: 10px;
+    margin-top: 10px;
+    position: static;
+    border-radius: 20px;
+  }
+ .section{
+    margin-left: 0;
+ }
+  .text_block_five {
+    padding-top: 20px;
+    max-width: 100%;
+  }
+  .backfive button {
+    display: block;
+    margin: 0px auto;
+    position: static;
+  }
+  .box {
+    padding: 20px;
+  }
+  .box h3 {
+    font-size: 16px;
+    text-align: center;
+  }
+  .box p {
+    font-size: 14px;
+    text-align: left;
+  }
+  }
+  .card {
+    
+    justify-content: center;
+    gap: 30px;
+  }
+  .kolo.left, .kolo.right {
+    max-width: 40px;
+    height: auto !important;
+    padding: 0 10px;
+  }
+
+  @media (max-width: 800px) {
+    h1{
+        font-size: 25px;
+    }
+    h2{
+        font-size: 25px;  
+    }
+    h3{
+        font-size: 20px;
+    }
+    p{
+        font-size: 15px;
+    }
+    .card h3{
+        font-size: 20px;
+    }
+    .text_block_two{
+        display: unset;
+    }
+
+    input[type="text"],
+    select,
+    textarea {
+      padding: 10px;           /* менше внутрішнє поле */
+      font-size: 12px;         /* менший шрифт */
+    }
+  
+    .container {
+      font-size: 15px;         /* зменшення загального тексту */
+      padding: 15px;
+    }
+  
+    .container p {
+      font-size: 20px;         /* зменшення заголовків у формі */
+    }
+  
+    legend {
+      font-size: 25px;         /* зменшення заголовка */
+      padding: 10px;
+    }
+  
+    input[type="submit"] {
+      font-size: 18px;
+      padding: 12px 30px;
+    }
+  
+    .radio label,
+    .checkbox label {
+      font-size: 15px;
+      
+    }
+
+  
+}
+@media (max-width: 600px){
+    .img img{
+        max-width: 300px;
+    }
+}
+
+@media (max-width: 500px) {
+    .card_two{
+        display: block;
+        display: flex;
+        width: 40%;
+        height: 50%;
+    }
+    .card img{
+        max-width: 60%;
+        height: auto;
+    }
+    .card p{
+        height: auto;
+        font-size: 9px;
+        display: flex;
+        padding:17px 5px 17px 5px;
+        justify-content: center;
+    }
+    .card h3{
+        font-size: 12px;
+    }
+    .girl_one img, .girl_two img, .girl_three img {
+        width: 40%;
+        max-width: 220px;
+        height: auto;
+    }
+    input[type="text"],
+    select,
+    textarea {
+      padding: 10px;           /* менше внутрішнє поле */
+      font-size: 9px;         /* менший шрифт */
+    }
+  
+    .container {
+      font-size: 9px;         /* зменшення загального тексту */
+      padding: 15px;
+    }
+  
+    .container p {
+      font-size: 9px;         /* зменшення заголовків у формі */
+    }
+  
+    legend {
+      font-size: 16px;         /* зменшення заголовка */
+      padding: 10px;
+    }
+  
+    input[type="submit"] {
+      font-size: 9px;
+      padding: 6px 14px;
+    }
+  
+    .radio label,
+    .checkbox label {
+      font-size: 9px;
+      
+    }
+    .radio ,
+    .checkbox  {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+}
+
+  /*до 320 px*/
+@media (max-width: 400px) {
+    .logo img {
+        width: 50%;
+        max-width: 200px;
+    }
+    
+    h1 {
+        font-size: 15px;
+    }
+	h2 {
+        font-size: 15px;
+        padding-bottom: 10px; 
+    }
+    h3 {
+        font-size: 12px;
+    }
+    p {
+        font-size : 9px;
+    }
+    br {
+        display: none;
+    }
+    header {
+        padding: 0px; 
+    }
+    nav{
+        display: none;
+    }
+    .logo {
+        display: flex;
+        margin: 4px 0px 4px 28px;
+    }
+    .menu__btn {
+        display: flex;        
+        align-items: center;
+        position: absolute;        
+        top: 8px;
+        right: 5%;      
+        width: 24px;        
+        height: 24px;
+        cursor: pointer;
+        z-index: 3;      
+    }
+    .menu__btn > span, .menu__btn > span::before, .menu__btn > span::after {
+        display: block;        
+        position: absolute;
+        width: 100%;
+        height: 2px;       
+        border-radius: 2px;
+        background-color: #FFEBAF;
+        transition-duration: .25s;
+
+      } 
+      .menu__box {        
+        display: block;
+        position: fixed;       
+        visibility: hidden;
+        top: 0;        
+        right: -90%;
+        width: 200px;     
+        margin: 0;        
+        padding: 30px 0;
+        list-style: none;
+        z-index: 2;
+      }
+      .menu__item {        
+        display: block;
+        padding: 12px 12px;             
+        font-size: 15px;    
+    }
+    .menu{
+        display: block;
+        width: 32px;
+        height: auto;
+        margin: 19px 32px 19px 0;
+    }
+    section {
+        padding: 30px;
+    }
+    .text_block {
+        margin-top: 0px;
+    } 
+    .img_block{
+        display: none;
+    }
+    .back p { 
+        padding: 10px 0;
+       }
+    button {
+        padding: 6px 14px;
+        font-size: 9px;
+        border-radius: 8px;
+    }
+    .img {
+        padding: 20px 0;
+    }
+    .img img {
+        min-width: 260px;    
+        
+    }
+    ul {
+        padding-left: 10px;
+    }
+    .backto p{
+        padding-left: 0px
+    }
+    .img_block_two {
+        display: none;
+    }
+    .card_two, .card_three {
+        display: none;
+    }
+    .card_two{
+        display: block;
+        display: flex;
+        width: 40%;
+        height: 50%;
+    }
+    .card img{
+        max-width: 60%;
+        height: auto;
+    }
+    .card p{
+        height: auto;
+        font-size: 9px;
+        display: flex;
+        padding:17px 5px 17px 5px;
+        justify-content: center;
+    }
+    .card h3{
+        font-size: 12px;
+    }
+    .card {
+        display: flex;
+        flex-direction: row;    
+        align-items: center;
+        justify-content: center; 
+    }
+    .kolo.right, .kolo.left{ 
+        height: 25px !important;
+    }
+    
+    .roz_one, .roz_two, .roz_three {
+        background-position: center;
+        padding: 26px 16px; 
+        flex-direction: column; /* Переводить зображення під текст */
+        align-items: center;
+        border-radius: 30px;
+    }
+    .backfour h3{
+        padding-bottom: 5px;
+        font-size: 12px;
+    } 
+    .backfour p{
+        font-size: 9px;
+    }
+    .text {
+        padding-top: 7px;
+    }
+    .section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .course-big {
+        gap: 5px;
+    }
+    .format, .time {
+    width: 88%;
+    max-width: unset;
+    padding: 10px;
+    margin-top: 10px;
+    position: static;
+    border-radius: 20px;
+  }
+    .backfive button{
+        display: block;
+        position: absolute;
+        justify-content: center;
+        top: 2973px;
+        left: 119px;
+        z-index: -1; 
+    }
+    .text_block_five{
+        padding-top: 0px; 
+        
+    }
+    .box{
+        border-radius: 15px;
+        padding: 10px 15px;  
+    }
+    .text_block_five h3{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 10px;
+    }
+    .text_block_five p{
+        align-items: left;
+        justify-content: center;
+    }
+    .p{
+        padding-bottom: 10px;
+    }
+     .pricing-card h3 {
+    font-size: 16px;
+  }
+  
+  .pricing-card .price {
+    font-size: 19px;
+  }
+    .pricing-card ul li {
+    font-size: 9px;
+  }
+  .pricing-card ul {
+    margin: 0;
+  }
+  
+  .pricing-card button {
+    font-size: 9px;
+    padding: 6px 14px;
+  }
+ .pricing-card  {
+    width: 65%;
+  }
+    footer {
+        flex-direction: column;
+        align-items: center;
+        padding: 3px;
+        gap: 1px;
+    }
+    footer p {
+        font-size: 9px;
+        padding: 0;
+    }
+    .social {
+       padding-right: 7px;
+    }
+    footer img {
+        padding: 0;
+        width: 12px;
+        height: 12px;
+    }
+  
+}
