@@ -15,7 +15,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          token: ${{ secrets.PERSONAL_ACCESS_TOKEN}}
+          token: ${{ secrets.BOHDANA_TOKEN}}
           
       - name: Check if sitemap needs update
         id: check
