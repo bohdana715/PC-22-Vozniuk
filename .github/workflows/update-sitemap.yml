@@ -41,6 +41,7 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add sitemap.xml
+          git remote set-url origin https://x-access-token:${{ secrets.BOHDANA_TOKEN }}@github.com/${{ github.repository }}
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else
