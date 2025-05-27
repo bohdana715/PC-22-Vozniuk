@@ -1,2 +1,3 @@
 User-agent: *
 Disallow: /
+Sitemap: https://bohdana715.github.io/PC-22-Vozniuk/sitemap.xml
