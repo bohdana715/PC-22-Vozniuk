@@ -1,0 +1,76 @@
+body.not-found {
+  color: #f3e8dc;
+  font-family: 'Cormorant Infant', serif;
+  margin: 0;
+  padding: 0;
+}
+
+.error-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.error-code {
+  font-size: 9rem;
+  font-weight: bold;
+  color: #ebdcae;
+  margin-bottom: 20px;
+}
+
+.error-message {
+  font-size: 1.6rem;
+  max-width: 600px;
+  margin-bottom: 45px;
+  line-height: 1.6;
+  background: #7b518f;
+  padding: 30px;
+  border-radius: 12px;
+  backdrop-filter: blur(4px);
+  box-shadow: 0 0 10px rgb(255 255 255 / 34%)
+}
+
+.error-actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.btn {
+  text-decoration: none;
+  padding: 12px 28px;
+  border-radius: 25px;
+  font-weight: bold;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  cursor: pointer;
+} 
+
+.btn-primary {
+  background-color: #FFEBAF;
+    color: #592870;
+    border: 1px solid #FFEBAF;
+    padding: 15px 50px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+.btn:hover {
+  background-color: #592870;
+    color: #FFEBAF;
+    border: 1px solid #FFEBAF;
+}
+
+.not-found ul {
+  list-style: none;
+  padding: 0;
+}
